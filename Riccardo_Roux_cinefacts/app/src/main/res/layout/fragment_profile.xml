@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoviesFragment"
+    android:background="@color/black_cinefacts">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/spider"/>
+
+            <ImageView
+                android:id="@+id/foto"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/festa"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/film"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="film visti"
+                android:textAllCaps="true"
+                android:fontFamily="@font/oswald"
+                android:textColor="@color/blu_cinefacts"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:paddingLeft="15dp"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:layout_below="@+id/foto"/>
+
+            <HorizontalScrollView
+                android:id="@+id/elencoFilm"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:paddingHorizontal="15dp"
+                android:layout_below="@+id/film">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="15dp">
+
+                        <ImageButton
+                            android:id="@+id/avatar"
+                            android:layout_width="139dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/pulp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="15dp">
+
+                        <ImageButton
+                            android:layout_width="139dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/endgame" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="15dp">
+
+                        <ImageButton
+                            android:layout_width="139dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/free" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="15dp">
+
+                        <ImageButton
+                            android:layout_width="139dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/marvels" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="15dp">
+
+                        <ImageButton
+                            android:layout_width="139dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/batman" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/serie"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="film visti"
+                android:textAllCaps="true"
+                android:fontFamily="@font/oswald"
+                android:textColor="@color/blu_cinefacts"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:paddingLeft="15dp"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:layout_below="@+id/elencoFilm"/>
+
+            <HorizontalScrollView
+                android:id="@+id/elencoSerie"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:paddingHorizontal="15dp"
+                android:layout_below="@+id/serie">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:marginBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="15dp">
+
+                        <ImageButton
+                            android:layout_width="139dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/wanda" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="15dp">
+
+                        <ImageButton
+                            android:layout_width="139dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/from" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="15dp">
+
+                        <ImageButton
+                            android:layout_width="139dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/ted" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="15dp">
+
+                        <ImageButton
+                            android:layout_width="139dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/night" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="15dp">
+
+                        <ImageButton
+                            android:layout_width="139dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/rookie" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

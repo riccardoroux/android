@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoviesFragment"
+    android:background="@color/black_cinefacts">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/movies_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oswald"
+                android:hint="Cerca un film"
+                android:layout_margin="10dp"
+                style="@style/RoundedEditText"
+                android:drawableLeft="@drawable/baseline_search_24"
+                android:drawablePadding="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="più visti"
+                android:textAllCaps="true"
+                android:fontFamily="@font/oswald"
+                android:textColor="@color/blu_cinefacts"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:paddingLeft="15dp"
+                android:paddingBottom="15dp"
+                android:paddingTop="5dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="15dp">
+
+                        <ImageButton
+                            android:id="@+id/avatar"
+                            android:layout_width="139dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/avatar" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="15dp">
+
+                        <ImageButton
+                            android:layout_width="139dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/pulp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="15dp">
+
+                        <ImageButton
+                            android:layout_width="139dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/jojo" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="15dp">
+
+                        <ImageButton
+                            android:layout_width="139dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/jaws" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="15dp">
+
+                        <ImageButton
+                            android:layout_width="139dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/free" />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="supereroi"
+                android:textAllCaps="true"
+                android:fontFamily="@font/oswald"
+                android:textColor="@color/blu_cinefacts"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:paddingLeft="15dp"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="15dp">
+
+                        <ImageButton
+                            android:layout_width="139dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/flash" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="15dp">
+
+                        <ImageButton
+                            android:layout_width="139dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/marvels" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="15dp">
+
+                        <ImageButton
+                            android:layout_width="139dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/batman" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="15dp">
+
+                        <ImageButton
+                            android:layout_width="139dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/infinity" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="15dp">
+
+                        <ImageButton
+                            android:layout_width="139dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/endgame" />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="zombie"
+                android:textAllCaps="true"
+                android:fontFamily="@font/oswald"
+                android:textColor="@color/blu_cinefacts"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:paddingLeft="15dp"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="15dp">
+
+                        <ImageButton
+                            android:layout_width="139dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/world" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="15dp">
+
+                        <ImageButton
+                            android:layout_width="139dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/zombieland" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="15dp">
+
+                        <ImageButton
+                            android:layout_width="139dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/zombieland2" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="15dp">
+
+                        <ImageButton
+                            android:layout_width="139dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/dawn" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingRight="15dp">
+
+                        <ImageButton
+                            android:layout_width="139dp"
+                            android:layout_height="200dp"
+                            android:src="@drawable/train" />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+
+        
+

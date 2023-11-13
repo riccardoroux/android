@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/appbar_navigation">
+
+    <fragment
+        android:id="@+id/moviesFragment"
+        android:name="com.example.riccardo_roux_cinefacts.MoviesFragment"
+        android:label="Movie Fragment">
+        <!-- Define altre configurazioni specifiche per il fragment dei film -->
+    </fragment>
+
+    <fragment
+        android:id="@+id/seriesFragment"
+        android:name="com.example.riccardo_roux_cinefacts.SeriesFragment"
+        android:label="Series Fragment">
+        <!-- Define altre configurazioni specifiche per il fragment delle serie TV -->
+    </fragment>
+
+</navigation>
